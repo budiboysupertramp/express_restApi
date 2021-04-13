@@ -1,0 +1,12 @@
+###
+POST http://localhost:3000/api/absen
+Content-Type: application/json
+# request body
+
+{
+    "nama" : "supertramp",
+    "email" : "nano@gmail.com",
+    "phone" : "08128113456",
+    "batch" : 8
+
+}
