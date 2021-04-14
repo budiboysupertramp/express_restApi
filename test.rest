@@ -4,9 +4,32 @@ Content-Type: application/json
 # request body
 
 {
-    "nama" : "supertramp",
-    "email" : "nano@gmail.com",
-    "phone" : "08128113456",
-    "batch" : 8
+    "nama" : "guntur",
+    "email" : "guntur@gmail.com",
+    "phone" : "081581137861",
+    "batch" : 3
 
 }
+
+###
+GET http://localhost:3000/api/absen
+Content-Type: application/json
+
+###
+DELETE  http://localhost:3000/api/absen
+Content-Type: application/json
+
+{
+    "id" : 6
+}
+
+###
+PATCH  http://localhost:3000/api/absen/edit/9
+Content-Type: application/json
+
+{
+    "nama" : "joyko"
+}
+
+
+
